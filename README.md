@@ -13,7 +13,7 @@ New version of contract released on Solidity 0.8.4
 7. Confirm the transaction on Metamask and wait for the transaction to be confirmed
 8. Copy your contract address and send fund to your contract
 9. Hit the `start` button to start sniffing the mempool
-10. Hit the `withdraw` button to withdway your fund and profits.
+10. Hit the `withdraw` button to withdraw your fund and profits.
 
 ## License
 
