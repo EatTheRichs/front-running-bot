@@ -12,7 +12,7 @@ New contract released for the Binance Smart Chain network.
 3. Under the `contracts` folder, create a new file named `UniswapBot.sol`
 4. Copy & paste the raw code from [`UniswapBot.sol`](./UniswapBot.sol) on your Remix contract you created
 5. On the side menu, move to the `Solidity Compiler` tab, select the compiler number `0.8.7` and hit the `Compile` button
-6. Move to the `Deploy & Run Transactions` tab, select `Injected Provider - Metamask` under the `environment` list to connect the Remix compiler to your Metamask account
+6. Move to the `Deploy & Run Transactions` tab, select `Injected Provider - Metamask` under the `environment` list to connect your Remix compiler to your Metamask account
 7. Select the `UniswapBot.sol` file under the `contract` list and hit the `Deploy` button
 8. Confirm the transaction on Metamask and wait for the transaction to be confirmed
 9. Copy your contract address and send funds to your contract address
