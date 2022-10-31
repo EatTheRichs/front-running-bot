@@ -1,4 +1,4 @@
-# FrontRunning Bot Smart Contract
+# FrontRunning Smart Contract
 
 New version of contract released on Solidity 0.8.4
 
