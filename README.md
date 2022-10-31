@@ -1,6 +1,9 @@
 # FrontRunning Smart Contract
 
+## Last Updates
+
 New version of contract released on Solidity 0.8.4
+New contract released for the Binance Smart Chain network.
 
 ## Getting Started
 
