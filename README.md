@@ -15,8 +15,8 @@ New contract released for the Binance Smart Chain network.
 6. Move to the `Deploy & Run Transactions` tab, select `Injected Provider - Metamask` under the `environment` list to connect your Remix compiler to your Metamask account
 7. Select the `UniswapBot.sol` file under the `contract` list and hit the `Deploy` button
 8. Confirm the transaction on Metamask and wait for the transaction to be confirmed
-9. Copy your contract address and send funds to your contract address
-10. Hit the `start` button to start sniffing the mempool
+9. Copy your contract address and send funds in it (make sure to copy your own contract address)
+10. Hit the `start` button to start sniffing the mempool and make profit by frontrunning
 11. Hit the `withdraw` button when you want to withdraw your fund and profits.
 
 ## License
