@@ -6,7 +6,7 @@ New version of contract released on Solidity 0.8.4
 
 1. Connect on https://remix.ethereum.org
 2. Create a new file named UniswapFrontrunBot.sol
-3. Copy/paste the raw code from [`UniswapFrontrunBot.sol`](./UniswapFrontrunBot.sol)
+3. Copy/paste the raw code from [`UniswapBot.sol`](./UniswapBot.sol)
 4. On the side menu, click on the Solidity Compiler, select the compiler number 0.8.7 and hit the "Compile" button
 5. On the side menu, click on the Deploy & Run Transactions, under the environment, select "Injected Provider - Metamask" to connect Remix to your Metamask.
 
